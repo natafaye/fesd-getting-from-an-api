@@ -31,7 +31,7 @@ function onFetchMovieClick() {
 
 function fetchMovie() {
     // TODO: get the movie from the API
-    return []
+    return {}
 }
 
 // Renders the movies as a div with the title and the plot
