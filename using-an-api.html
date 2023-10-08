@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using an API</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="my-4">
+            <h2>Lego</h2>
+            <button class="btn btn-primary mb-3" onclick="onFetchLegoClick()">Fetch</button>
+            <div id="lego-container">
+
+            </div>
+        </div>
+        <hr/>
+        <div class="my-4">
+            <h2>Movie</h2>
+            <button class="btn btn-primary mb-3" onclick="onFetchMovieClick()">Fetch</button>
+            <div id="movie-container">
+
+            </div>
+        </div>
+        <hr/>
+        <div class="my-4">
+            <h2>Pokemon</h2>
+            <button class="btn btn-primary" onclick="onFetchPokemonClick()">Fetch</button>
+            <div id="pokemon-container">
+
+            </div>
+        </div>
+        <hr/>
+        <div class="my-4">
+            <h2>Meals</h2>
+            <button class="btn btn-primary mb-3" onclick="onFetchMealsClick()">Fetch</button>
+            <div id="meals-container">
+
+            </div>
+        </div>
+    </div>
+    <script src="API_KEYS.js"></script>
+    <script src="using-an-api.js"></script>
+</body>
+</html>
